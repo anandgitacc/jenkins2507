@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verifying Login page credentials",
+        "description": "",
+        "id": "verifying-facebook-details;verifying-login-page-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3484885700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on facebook login page",
+            "match": {
+              "location": "LoginStepDef.user_is_on_facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 382800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should enter username and password",
+            "match": {
+              "location": "LoginStepDef.user_should_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should should click the login button",
+            "match": {
+              "location": "LoginStepDef.user_should_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should verify successfully entered",
+            "match": {
+              "location": "LoginStepDef.user_should_verify_successfully_entered()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying Facebook details",
+    "description": "",
+    "id": "verifying-facebook-details",
+    "keyword": "Feature",
+    "uri": "src/test/resources/FeatureFiles/FaceBookLogin.feature",
+    "tags": []
+  }
+]
