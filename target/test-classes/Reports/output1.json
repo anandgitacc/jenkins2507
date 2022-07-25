@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verifying Login page credentials",
+        "description": "",
+        "id": "verifying-facebook-details;verifying-login-page-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 100\nCurrent browser version is 103.0.5060.114 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-51P8D8R\u0027, ip: \u0027192.168.1.9\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x008C7413+2389011]\n\tOrdinal0 [0x00859F61+1941345]\n\tOrdinal0 [0x0074C658+837208]\n\tOrdinal0 [0x0076C773+968563]\n\tOrdinal0 [0x0076837A+951162]\n\tOrdinal0 [0x00765C51+941137]\n\tOrdinal0 [0x00798C80+1150080]\n\tOrdinal0 [0x007988DA+1149146]\n\tOrdinal0 [0x00793F66+1130342]\n\tOrdinal0 [0x0076E546+976198]\n\tOrdinal0 [0x0076F456+980054]\n\tGetHandleVerifier [0x00A79632+1727522]\n\tGetHandleVerifier [0x00B2BA4D+2457661]\n\tGetHandleVerifier [0x0095EB81+569713]\n\tGetHandleVerifier [0x0095DD76+566118]\n\tOrdinal0 [0x00860B2B+1968939]\n\tOrdinal0 [0x00865988+1989000]\n\tOrdinal0 [0x00865A75+1989237]\n\tOrdinal0 [0x0086ECB1+2026673]\n\tBaseThreadInitThunk [0x76BCFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77807A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77807A6E+238]\n\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)\r\n\tat java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\r\n\tat java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)\r\n\tat java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)\r\n\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)\r\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)\r\n\tat java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)\r\n\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat org.stepdefjenkins.LoginStepDef.user_is_on_facebook_login_page(LoginStepDef.java:19)\r\n\tat ✽.User is on facebook login page(src/test/resources/FeatureFiles/FaceBookLogin.feature:4)\r\n",
+              "duration": 3327645000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User is on facebook login page",
+            "match": {
+              "location": "LoginStepDef.user_is_on_facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11800,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User should enter username and password",
+            "match": {
+              "location": "LoginStepDef.user_should_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7500,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User should should click the login button",
+            "match": {
+              "location": "LoginStepDef.user_should_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4700,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User should verify successfully entered",
+            "match": {
+              "location": "LoginStepDef.user_should_verify_successfully_entered()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying Facebook details",
+    "description": "",
+    "id": "verifying-facebook-details",
+    "keyword": "Feature",
+    "uri": "src/test/resources/FeatureFiles/FaceBookLogin.feature",
+    "tags": []
+  }
+]
